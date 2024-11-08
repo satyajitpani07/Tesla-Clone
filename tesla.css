@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+
+.tesla{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-position: center;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 60px;
+   
+}
+.navbar>a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px 15px;
+    color: white;
+}
+.icons>svg{
+    
+    height: 25px;
+    width: 25px;
+    color: white;
+
+}
+.logo>svg{
+    height: 12px;
+    width: 120px;
+    color: white;
+    margin: 10px;
+}
+
+section{
+    padding-top: 20px;
+text-align: center;
+
+}
+section h1{
+    color: white;
+    font-size:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+section h3{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+    font-weight: bold;
+     display: inline;
+   border-bottom:1.5px solid white ;
+  
+}
+section p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container1{
+    margin-left: 410px;
+    margin-top: 370px;
+}
+.btn1,.btn2{
+   
+    height: 42px;
+    width: 260px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+.btn1{
+    border: 1px solid rgb(62,106,225);
+    background-color: rgb(62,106,225);
+    color: white;
+    font-weight: bold;
+}
+.btn2{
+    border: 1px solid white;
+    font-weight: bold;
+}
+.tesla1{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-position: center;
+}
